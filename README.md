@@ -23,4 +23,11 @@ Markdown files are now openend in preview instead of source code by default.
 
 ## Verifying your solution
 
-Every challenge you submit will be checked by running the verify script. You can always run the verify script yourself to see if you have completed the challenge successfully. Always run the verify script from the directory it is defined in.
+Every challenge you submit will be checked by running the verify script. You can always run the verify script yourself to see if you have completed the challenge successfully. 
+
+You should always run the verify script from the directory it is defined in!
+
+There are two ways to do this:
+
+* Start `git bash` and navigate to the folder of the challenge you are working in with the command `cd`. Run the python script from the command line afterwards.
+* Run the script from VS Code. This will run the script from the folder VS code is openened in. Most of the time this will be the wrong folder! You can circumvent this by changing the folder in the terminal after running the script using `cd` and then running the script again.
