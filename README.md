@@ -4,6 +4,12 @@ Open this folder in Visual Studio Code to easily work with the challenges.
 
 We advise you to complete the challenges in their numbered order. Start with the introduction challenges and then the git challenges. Afterwards the order can be freely chosen.
 
+## Getting Updates
+
+It is a good idea to check for updates before you start working. 
+
+To do so, update the challenges-23-24 folder (execute the command `git pull` from git bash in the folder), and copy the files over again if you see that there are changes.
+
 ## Working with markdown
 
 Every challenge is presented as a _markdown_ file.
