@@ -12,16 +12,16 @@ Read the basics about using the shell and some frequently used commands on [Linu
 
 Try to complete the following steps using only the shell. You can use the website above as a reference.
 
-1. Navigate to the `shell-challenges` folder using the `cd` command:
+1. Navigate to the `01-basic-shell-commands` folder using the `cd` command:
 
     ```console
-    $ cd shell-challenges
+    $ cd 01-basic-shell-commands
     ```
 
 1. Create a new directory called `solution` using the appropriate command.
 1. Navigate to the `solution` folder using the `cd` command.
 1. Create a new file called `solution.md` using the appropriate command.
-1. Navigate back to the `shell-challenges` folder. You can use the `..` shortcut to navigate to the parent folder:
+1. Navigate back to the `01-basic-shell-commands` folder. You can use the `..` shortcut to navigate to the parent folder:
     ```console
     $ cd ..
     ```
