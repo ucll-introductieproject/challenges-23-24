@@ -55,10 +55,13 @@ if len(raw_solutions) > 0:
         sys.exit(1)
         
     sum = 0
-    for i in answer.group(1):
+    for i in answer.group(1).replace('\n', ''):
         sum  = sum + ord(i)
         
     if (sum == 664):
         print(bcolors.OKGREEN + "You're in. Congrats agent, you did it, you're done here!")
         sys.exit(0)
+    else:
+        print(bcolors.FAIL + "Something went wrong matching your solution \"{0}\"".format(solution.replace('\n', '')))
+        sys.exit(1)
     
